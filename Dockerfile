@@ -10,4 +10,4 @@ RUN pip install awscli --upgrade --user
 RUN apk --purge -v del py-pip
 RUN rm -rf /var/cache/apk/*
 
-CMD ["/bin/bash"]
+CMD ["/bin/sh"]
